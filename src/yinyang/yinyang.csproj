@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PeanutButter.TrayIcon" Version="1.2.360" />
+    <PackageReference Include="PeanutButter.Utils" Version="2.0.33" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\icon.png">
+      <Link>icon.png</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
