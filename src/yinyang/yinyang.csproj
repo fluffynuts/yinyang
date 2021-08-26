@@ -5,6 +5,9 @@
     <TargetFramework>net462</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <LangVersion>latest</LangVersion>
+    <Title>YinYang system theme switcher</Title>
+    <Description>Provides quick access to toggle between light and dark themes on Windows 10.</Description>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,9 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="..\icon.png">
-      <Link>icon.png</Link>
-    </EmbeddedResource>
+    <EmbeddedResource Include="icon.png" />
   </ItemGroup>
 
 </Project>
